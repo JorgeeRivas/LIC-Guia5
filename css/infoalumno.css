@@ -1,0 +1,36 @@
+table.carinfo {
+border-color: #999999;
+border-collapse: collapse;
+border-width: 1px;
+color:#333333;
+font-family: verdana,arial,sans-serif;
+font-size:11px;
+margin: 26px auto;
+width: 42%;
+}
+table.carinfo th {
+padding: 6px 8px;
+background: #d5e3e4;
+border: 1px solid #999999;
+}
+table.carinfo td {
+padding: 6px 8px;
+background: #ebecda;
+border: 1px solid #999999;
+}
+table.carinfo th p{
+margin:0px;
+padding:8px;
+border-top: 1px solid #eefafc;
+border-bottom:0px;
+border-left: 1px solid #eefafc;
+border-right:0px;
+}
+table.carinfo td p{
+margin:0px;
+padding:8px;
+border-top: 1px solid #fcfdec;
+border-bottom:0px;
+border-left: 1px solid #fcfdec;;
+border-right:0px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Creación de objetos</title>
+ <meta charset="utf-8" />
+
+ <link rel="stylesheet" href="../css/libro.css" />
+ <script src="../js/libro.js"></script>
+</head>
+<body>
+<div class="masked">
+ <h1>Información del libro</h1>
+</div>
+<form action="javascript:void(0)" name="frmbook" id="frmbook">
+ <table>
+ <tr>
+ <td>Autor: </td>
+ <td>
+ <input type="text" name="txtautor" id="txtautor" maxlength="60" />
+ </td>
+ </tr>
+ <tr>
+ <td>Título: </td>
+ <td>
+ <input type="text" name="txtitulo" id="txtitulo" maxlength="90" />
+ </td>
+ </tr>
+ <tr>
+ <td>Editorial: </td>
+ <td>
+ <select name="seleditorial" size="1">
+ <option value="a" selected="selected">Mc-Graw Hill</option>
+ <option value="b">Pearson</option>
+ <option value="a">Alfa-omega</option>
+ <option value="a">Anaya</option>
+ </select>
+ </td>
+ </tr>
+ <tr>
+ <td>Edición: </td>
+ <td>
+ <select name="seledicion" size="1">
+ <option value="a" selected="selected">1ra</option>
+ <option value="b">2da</option>
+ <option value="c">3ra</option>
+ <option value="d">4ta</option>
+ <option value="e">5ta</option>
+ <option value="f">6ta</option>
+ </select>
+ </td>
+ </tr>
+ <tr>
+ <td>País: </td>
+ <td>
+ <input type="text" name="txtpais" id="txtpais" maxlength="36" />
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2" class="combinar">
+ <input type="button" name="mostrar" id="mostrar" value="Enviar" class="boton" />
+ </td>
+ </tr>
+ </table>
+</form>
+</body>
+</html>

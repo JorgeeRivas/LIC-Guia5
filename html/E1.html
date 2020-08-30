@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Potencias</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/potencia.css" />
+    <script src="../js/potencia.js"></script>
+  </head>
+  <body>
+    <section id="slick">
+      <!-- Área de formulario -->
+      <div class="contact-form">
+        <!-- Título -->
+        <div class="title">Potencia de un numero:</div>
+        <div class="w-100">
+          <!-- Campos de formulario -->
+          <form
+            name="frmrectangulo"
+            id="frmrectangulo"
+            action="javascript:void(0);"
+          >
+            <!-- Campo para la base -->
+            <div class="field">
+              <input
+                type="number"
+                name="base"
+                id="txtbase"
+                placeholder="Numero a elevar"
+                required
+              />
+              <span class="slick-tip left">Ingrese la base:</span>
+            </div>
+            <!-- Campo para la altura -->
+            <div class="field">
+              <input
+                type="number"
+                name="altura"
+                id="txtaltura"
+                placeholder="Potencia"
+                required
+              />
+              <span class="slick-tip left">Ingrese la potencia:</span>
+            </div>
+            <!-- Botones para hacer los cálculos -->
+            <input
+              type="button"
+              value="Calcular"
+              class="send"
+              name="btnarea"
+              id="area"
+            />
+          </form>
+
+          <div class="title" >El valor de la potencia es:    </div>
+          <div class="title" id="titulo">  </div>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
